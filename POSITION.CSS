@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+nav {
+    background: black;
+    position: sticky;
+    top: 0;
+    height: 50px;
+    padding-top: 10px;
+}
+
+p {
+    text-align: justify;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.img-3 {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.img-2 {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 150px;
+    right: 20px;
+}
+
+
+

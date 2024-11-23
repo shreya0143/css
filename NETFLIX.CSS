@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ body{
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.555),rgba(0, 0, 0, 0.555)),url(./IN-en-20241104-TRIFECTA-perspective_55263ea2-af7f-40ed-9cf0-7029a9b9baf4_large.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    
+ }
+.main {
+    padding-top: 120px;
+}
+
+
+
+.box {
+    height: 600px;
+    width: 330px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.616);
+    padding: 50px;
+    /* padding-top: 100px; */
+}
+
+h1 {
+    
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+
+
+input[type="text"] {
+    border: solid 2px grey;
+    background-color: rgba(0, 0, 0, 0.568);
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 280px;
+    height: 40px;
+}
+
+input[type="password"] {
+    border: solid 2px gray;
+    background-color:  rgba(0, 0, 0, 0.568);
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 280px;
+    height: 40px;
+}
+
+.btn-1{
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 6px;
+    background: red;
+    width: 300px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button-2{
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 6px;
+    background: rgba(128, 128, 128, 0.445) !important;
+    width: 300px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+    color: grey;
+    margin-top: 20px;
+    margin-left: 140px;
+}
+
+h3 {
+    color: white;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+input[type="checkbox"] {
+    color: white;
+}
+
+span{
+    color: white;
+    font-size: larger;
+}
+
+h2 {
+    color: grey;
+    margin-top: 20px;
+}
+
+a {
+    color: white;
+}
+
+h5{
+    color: grey;
+    margin-top: 20px;
+}
+
+.a2 {
+    color: #0071eb;
+}

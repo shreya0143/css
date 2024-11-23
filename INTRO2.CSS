@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.link {
+    text-align: end;
+}
+
+.section-1 {
+    background-color: aqua;
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+
+.section-2 {
+    background-color: RED;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.section-3 {
+    background-color: blue;
+    font-size: 30px;
+    text-align: justify;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: normal;
+    letter-spacing: normal;
+    word-spacing: normal;
+    font-style: italic;
+    text-indent: 0%;
+}
+
+.section-4 {
+    background-color: bisque;
+    font-size: 20px;
+    text-align: justify;
+    text-transform: capitalize;
+}
+
+.section-5 {
+    background-color: black;
+    color: chartreuse;
+    font-size: medium;
+    text-align: justify;
+    text-indent: 0%;
+}

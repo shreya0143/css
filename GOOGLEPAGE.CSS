@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./naz-israyelyan-N8bJjj-XZ0o-unsplash.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parent {
+    padding-top: 300px;
+}
+
+.nav {
+    position: absolute;
+    color: rgb(27, 22, 22);
+    font-size: 17px;
+    top: 50px;
+    right: 230px;
+    text-decoration: none;
+
+
+}
+
+
+
+a {
+    color: black;
+}
+
+.img {
+
+    position: absolute;
+    color: rgb(20, 17, 17);
+    font-size: 17px;
+    text-decoration: none;
+    top: 50px;
+    right: 160px;
+
+}
+
+.lebs {
+    position: absolute;
+    color: rgb(20, 17, 17);
+    font-size: 17px;
+    text-decoration: none;
+    top: 50px;
+    right: 120px;
+}
+
+.dot {
+
+    position: absolute;
+    color: rgb(20, 17, 17);
+    font-size: 17px;
+    text-decoration: none;
+    top: 50px;
+    right: 70px;
+
+}
+
+.s {
+    position: absolute;
+    color: rgb(20, 17, 17);
+    font-size: 17px;
+    text-decoration: none;
+    top: 40px;
+    right: 10px;
+}
+
+.img-2 img{
+    height: 40px;
+    width: 40px;
+}
+
+.about {
+    position: absolute;
+    color: rgb(20, 17, 17);
+    font-size: 17px;
+    text-decoration: none;
+    top: 50px;
+    left: 10px;
+}
+
+.store {
+    position: absolute;
+    color: rgb(20, 17, 17);
+    font-size: 17px;
+    text-decoration: none;
+    top: 50px;
+    left: 70px;
+}
+
+.google {
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    padding-right: 120px;
+}
+.box {
+    height: 50px;
+    width: 600px;
+    border: solid 1px grey;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.171);
+    margin: 0 auto;
+}
+
+.search i{
+    font-size: 15px;
+    padding-left: 20px;
+    padding-top: 17px;
+    
+}
+
+.fa-microphone {
+    position: relative;
+    left: 78%;
+
+}
+
+.fa-camera {
+    position: relative;
+    left: 79%;
+}

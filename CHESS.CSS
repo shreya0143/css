@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.box {
+    height: 80px;
+    width: 80px;
+    border: solid 1px black;
+    background-color: rgb(0, 0, 0);
+}
+.box-1 {
+    height: 80px;
+    width: 80px;
+    border: solid 1px black;
+    background-color: beige;
+}
+.one {
+    float: left;
+}
+.two {
+    float: right;
+}
+.parent {
+    height: 656px;
+    /* border: solid 2px black; */
+    width: 656px;
+    margin: 0 auto;
+}
+.fa-solid {
+    font-size: 50px;
+    margin-left: 22px;
+    margin-top: 10px;
+}

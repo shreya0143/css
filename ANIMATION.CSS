@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    animation-name: cloud;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes cloud {
+    0% {
+        top: 0;
+        left: 0;
+    }
+    50% {
+        top: 0;
+        left: 1000px;
+    }
+    100% {
+        top: 0;
+        left: 0;
+    }
+}

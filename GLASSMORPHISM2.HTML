@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        } 
+
+        .main {
+            background-image: url(./img2.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+        }
+
+        .box {
+            height: 400px;
+            width: 400px;
+            border: solid 4px black;
+            border-radius: 10px;
+            margin: 0 auto;
+            background: linear-gradient(rgba(255, 255, 255, 0.544) , rgba(255, 255, 255, 0.539));
+            background-attachment: local;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            padding: 50px;
+        }
+
+        .sec-1 {
+            padding-top: 250px;
+        }
+
+        h1 {
+            text-align: center;
+            padding-top: 10px;
+        }
+
+        input[type="text"] {
+            border: none;
+            border-bottom: solid 4px black ;
+            margin-top: 50px;
+            outline: none;
+            background-color: transparent;
+        }
+
+        input[type="password"] {
+            border: none;
+            border-bottom: solid 4px black;
+            margin-top: 30px;
+            outline: none;
+            background-color: transparent;
+        }
+
+        input[type="checkbox"] {
+            margin-top: 30px;
+            margin-left: 60px;
+        }
+
+        button {
+            padding: 10px;
+            background-color: white;
+            margin-left: 50px;
+            margin-top: 30px;
+            width: 280px;
+        }
+
+        h3 {
+            margin-top: 30px;
+            margin-left: 60px;
+        }
+
+        ::placeholder {
+            color: black;
+            font-weight: 800;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        
+        <div class="sec-1">
+            <div class="box">
+               
+                <h1> Log In </h1>
+
+                <input type="text" size="30px" placeholder="Enter your email">
+                <br>
+
+                <input type="password" size="30px" placeholder="Enter your password">
+                <br>
+                
+                <input type="checkbox"> Remember me <a href="#">Forget password? </a>
+
+                <br>
+                <button> Log In </button>
+
+                <h3>Don't have an account? Register </h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
